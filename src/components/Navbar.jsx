@@ -5,10 +5,15 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleNav = () => {
     setNav(!nav);
+    if(!nav) {
+        document.body.style.overflow = 'hidden'
+    } else {
+        document.body.style.overflow = 'scroll'
+    }
   };
 
   return (
-    <div className=" absolute w-full flex justify-between p-4 items-center">
+    <div className=" absolute  w-full flex justify-between p-4 items-center">
       <h1 className=" text-white font-bold  text-2xl  z-20 ">BellaStäd</h1>
       <RiMenuUnfoldLine
         size={35}
