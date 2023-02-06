@@ -30,8 +30,8 @@ const Navbar = () => {
         <ul className=" flex flex-col fixed w-full h-full items-center justify-center">
           <li className=" font-bold text-3xl p-8 cursor-pointer"><a href="/" onClick={handleNav} >HEM</a></li>
           <li className=" font-bold text-3xl p-8 cursor-pointer"><a href="#about" onClick={handleNav} >OM OSS</a></li>
-          <li className=" font-bold text-3xl p-8 cursor-pointer">TJÄNSTER</li>
-          <li className=" font-bold text-3xl p-8 cursor-pointer">KONTAKT</li>
+          <li className=" font-bold text-3xl p-8 cursor-pointer"><a href="#services" onClick={handleNav} >TJÄNSTER</a></li>
+          <li className=" font-bold text-3xl p-8 cursor-pointer"><a href="#contact" onClick={handleNav} >KONTAKT</a></li>
         </ul>
       </div>
     </div>
