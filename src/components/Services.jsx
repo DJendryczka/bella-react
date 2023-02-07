@@ -5,15 +5,15 @@ import Window from '../images/window.jpg'
 
 const Services = () => {
   return (
-    <div id="services" className=" max-w-[1300px] h-auto lg:h-[500px] bg-blue-100 mx-auto my-20 pt-16 lg:mb-[20%] md:mb-[35%]  px-4 grid grid-cols-3 gap-4">
-      <div className="  relative lg:col-span-1 col-span-2">
+    <div id="services" className=" max-w-[1300px] h-[500px] bg-blue-100 mx-auto my-20 pt-16 lg:mb-[20%] md:mb-[35%]  px-4 grid grid-cols-3 gap-4">
+      <div className="  relative lg:col-span-1 col-span-3">
         <h3 className=" text-2xl font-bold">Våra Tjänster består av:</h3>
-        <ul className=" pt-4">
-          <li className=" text-xl py-2">Kontorstädning</li>
-          <li className=" text-xl py-2">Storstädning</li>
-          <li className=" text-xl py-2">Trappstädning</li>
-          <li className=" text-xl py-2">Flyttstädning</li>
-          <li className=" text-xl py-2">Fönsterputs</li>
+        <ul className=" pt-2">
+          <li className=" text-xl py-1">Kontorstädning</li>
+          <li className=" text-xl py-1">Storstädning</li>
+          <li className=" text-xl py-1">Trappstädning</li>
+          <li className=" text-xl py-1">Flyttstädning</li>
+          <li className=" text-xl py-1">Fönsterputs</li>
         </ul>
       </div>
 
