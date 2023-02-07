@@ -18,9 +18,9 @@ const Services = () => {
       </div>
 
       <div className=" grid grid-cols-2 col-span-2 gap-2">
-        <img className=" object-cover w-full h-full row-span-1" src={Kontor} alt='Städning av kontor' />
+        <img className=" object-cover w-full h-[60%] lg:h-full row-span-1" src={Kontor} alt='Städning av kontor' />
         <img className=" object-cover w-full h-full row-span-2" src={Flytt} alt='Städning av kontor' />
-        <img className=" object-cover w-full h-full row-span-1" src={Window} alt='Städning av kontor' />
+        <img className=" object-cover w-full h-[60%] lg:h-full row-span-1" src={Window} alt='Städning av kontor' />
       </div>
     </div>
   );
