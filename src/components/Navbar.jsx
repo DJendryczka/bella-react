@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <div className="   w-full flex justify-between p-4 items-center fixed top-0 z-30">
-      <h1 className=" text-orange-400 font-bold  text-2xl  z-20 ">BellaStäd</h1>
+      <h1 className=" text-orange-400 font-bold  text-2xl  z-20 hidden 2xl:inline">BellaStäd</h1>
       <RiMenuUnfoldLine
         size={35}
         className=" z-20 text-gray-800  cursor-pointer"

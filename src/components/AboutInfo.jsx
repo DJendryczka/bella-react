@@ -7,7 +7,7 @@ import Image5 from "../images/dining.jpg";
 
 const AboutInfo = () => {
   return (
-    <div className=" max-w-[1400px]  m-auto my-8 py-16 px-4 grid lg:grid-cols-2 gap-4" id="about" >
+    <div className=" max-w-[1300px]  m-auto my-8 py-16 px-4 grid lg:grid-cols-2 gap-4" id="about" >
         {/* Right side */}
       <div className=" grid grid-cols-2 grid-rows-6 h-[80vh]">
         <img src={Image1} alt="Clean bathroom" className=" object-cover w-full h-full p-2 row-span-3"/>

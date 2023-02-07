@@ -5,8 +5,8 @@ import Window from '../images/window.jpg'
 
 const Services = () => {
   return (
-    <div id="services" className=" max-w-[1400px] h-[500px] bg-blue-100 mx-auto my-20 pt-16 mb-20 lg:mb-[30%] md:mb-[55%]  px-4 grid lg:grid-cols-3 gap-4">
-      <div className=" lg:top-20 relative lg:col-span-1 col-span-2">
+    <div id="services" className=" max-w-[1300px] h-auto lg:h-[500px] bg-blue-100 mx-auto my-20 pt-16 lg:mb-[20%] md:mb-[35%]  px-4 grid grid-cols-3 gap-4">
+      <div className="  relative lg:col-span-1 col-span-2">
         <h3 className=" text-2xl font-bold">Våra Tjänster består av:</h3>
         <ul className=" pt-4">
           <li className=" text-xl py-2">Kontorstädning</li>
@@ -17,7 +17,7 @@ const Services = () => {
         </ul>
       </div>
 
-      <div className=" grid grid-cols-2 col-span-2 gap-2 ">
+      <div className=" grid grid-cols-2 col-span-2 gap-2">
         <img className=" object-cover w-full h-full" src={Kontor} alt='Städning av kontor' />
         <img className=" object-cover w-full h-full row-span-2" src={Flytt} alt='Städning av kontor' />
         <img className=" object-cover w-full h-full " src={Window} alt='Städning av kontor' />

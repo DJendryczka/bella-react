@@ -11,7 +11,7 @@ const Hero = () => {
                 <p className=' max-w-[600px] drop-shadow-2xl py-2 text-3xl'>Vår team på</p>
                 <h1 className=' font-bold text-7xl drop-shadow-2xl text-orange-100' >BellaStäd</h1>
                 <p className=' max-w-[600px] drop-shadow-2xl py-2 text-3xl'>Håller din omgivning rent</p>
-                <button className=' bg-orange-500 my-2' >Kontakta oss</button>
+                <a href="#contact"><button className=' bg-orange-500 my-2' >Kontakta oss</button></a>
             </div>
         </div>
     </div>
