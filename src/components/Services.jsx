@@ -9,18 +9,18 @@ const Services = () => {
       <div className="  relative lg:col-span-1 col-span-3">
         <h3 className=" text-2xl font-bold">Våra Tjänster består av:</h3>
         <ul className=" pt-2">
-          <li className=" text-xl py-1">Kontorstädning</li>
-          <li className=" text-xl py-1">Storstädning</li>
-          <li className=" text-xl py-1">Trappstädning</li>
-          <li className=" text-xl py-1">Flyttstädning</li>
+          <li className=" text-xl py-1">Kontorstädning, Storstädning</li>
+          
+          <li className=" text-xl py-1">Trappstädning, Flyttstädning</li>
+          
           <li className=" text-xl py-1">Fönsterputs</li>
         </ul>
       </div>
 
       <div className=" grid grid-cols-2 col-span-2 gap-2">
-        <img className=" object-cover w-full h-[50%] sm:h-full row-span-1" src={Kontor} alt='Städning av kontor' />
+        <img className=" object-cover w-full h-full row-span-1" src={Kontor} alt='Städning av kontor' />
         <img className=" object-cover w-full h-full row-span-2" src={Flytt} alt='Städning av kontor' />
-        <img className=" object-cover w-full h-[50%] sm:h-full row-span-1" src={Window} alt='Städning av kontor' />
+        <img className=" object-cover w-full h-full row-span-1" src={Window} alt='Städning av kontor' />
       </div>
     </div>
   );
