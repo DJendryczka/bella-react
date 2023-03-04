@@ -7,7 +7,7 @@
   button{
     @apply border py-2 px-3 rounded-full
   }
-  body{
-    scroll-behavior: smooth;
+  html {
+    @apply scroll-smooth
   }
 }
