@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <div className="   w-full flex justify-between p-4 items-center fixed top-0 z-30">
-      <div className=" w-[150px]"><img src={ Logo} alt='Nella Städs Logo' /></div>
+      <div className=" w-[150px] hidden md:block"><img src={ Logo} alt='Bella Städs Logo' /></div>
       {/* <h1 className=" text-orange-400 font-bold  text-2xl  z-20 hidden 2xl:inline">BellaStäd</h1> */}
       <RiMenuUnfoldLine
         size={35}
